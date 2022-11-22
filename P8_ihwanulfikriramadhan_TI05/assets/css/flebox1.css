@@ -1,0 +1,22 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7BF6D4;
+    padding: 0.5em;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+} 
+nav ul li {
+    margin: 0.1em;
+}
