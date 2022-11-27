@@ -1,0 +1,46 @@
+.container{
+   display: flex;
+   height: 100vh;
+}
+.main{
+   display: flex;
+
+}
+.header,.footer{
+   height: 5vh;
+   width: 130vh;
+   background: coral;
+   padding: 0px;
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+}
+
+.konten{
+   width: 100%;
+}
+.artikel{
+   background: Yellow;
+   width: 80%;
+   height: 30vh;
+   padding: 0px;
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.asside{
+   background: Lime;
+   width: 22vh;
+   height: 186px;
+   padding: 0px;
+   margin-top: 0px;
+   margin-left: 0px;
+}
+.p15{
+  background: rgb(88, 2, 2);
+  width: 200px;
+  height: 248px;
+  margin-top: 0px;
+
+}

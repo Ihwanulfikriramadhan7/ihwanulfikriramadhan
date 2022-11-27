@@ -1,0 +1,46 @@
+body{
+    background: rgb(17, 2, 2);
+    padding: 25px;;
+    margin: 30px;;
+}
+.container{
+   display: flex;
+   height: 100vh;
+}
+.main{
+   display: flex;
+
+}
+.header,.footer{
+   height: 10vh;
+   background: khaki;
+   padding: 15px;
+}
+.artikel, .asside{
+   height: 60vh;
+   padding: 15px;
+}
+
+.konten{
+   width: 100%;
+}
+.artikel{
+    background-color: brown;
+    color: aliceblue;
+   width: 70%;
+  
+}
+.asside{
+   width: 50%;
+   background: aqua;
+}
+.p15{
+   padding: 15px;
+}
+.artikel img {
+    width: 100px;
+    height: 150px;
+    margin: 0px;
+    padding: 2px;
+    margin-top: 200px;
+}
