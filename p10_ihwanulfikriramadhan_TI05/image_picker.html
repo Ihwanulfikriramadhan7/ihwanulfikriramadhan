@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body>
+    <select name="dropdown_img" id="dropdown_img" onchange="gambar()">
+        <option hidden>---pilih gambar---</option>
+        <option value="gorila">Gorila</option>
+        <option value="singa">Singa</option>
+        <option value="elang">Elang</option>
+    </select>
+    <br/>
+    <img alt="gambar" id="image" />
+
+    <script>
+        function gambar() {
+            let drop_img = document.getElementById("dropdown_img").value;
+            let image = document.getElementById("image");
+
+            if (drop_img == "gorila") {
+                image.setAttribute(
+                    "src",
+                    "https://www.dosenpendidikan.co.id/wp-content/uploads/2019/08/Gorilla.jpg"
+                );
+                alert("Ini Gambar Gorila")
+
+            } else if (drop_img == "singa") {
+                image.setAttribute(
+                    "src",
+                    "https://1.bp.blogspot.com/-t9Kg_FWd24w/WCQHxwA4VRI/AAAAAAAAA5s/FUR5_cAil98REhixBZTSUmmwIijFM-gbwCEw/s1600/singa%2Binfartikel.jpg"
+                );
+                alert("Ini Gambar singa")
+
+            } else if (drop_img == "elang") {
+                image.setAttribute(
+                    "src",
+                    "https://1.bp.blogspot.com/-oXth1a6ZsYw/Vi2dhPSYZ-I/AAAAAAAADas/9u_S1AuNTjw/s1600/elang.jpg"
+                );
+                alert("Ini Gambar elang")
+
+            } else {
+                alert("Tidak Ada Gambar");
+            }
+        }
+    </script>
+</body>
+</html>
